@@ -236,7 +236,7 @@
         }
         
         .contact .container .row {
-            padding-top: 120px;
+            /* padding-top: 120px; */
         }
         
         .contact__sequel {
@@ -284,6 +284,12 @@
             color: #4D4D4D;
             background: rgba(255, 255, 255, 0.5);
             ;
+        }
+        
+        .form-control.is-invalid,
+        .was-validated .form-control:invalid {
+            background: rgba(255, 255, 255, 0.5);
+            border: 1px solid #4D4D4D;
         }
         /* media Query */
         
