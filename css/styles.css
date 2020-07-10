@@ -291,6 +291,28 @@
             background: rgba(255, 255, 255, 0.5);
             border: 1px solid #4D4D4D;
         }
+        
+        .upper__div {
+            background: rgba(26, 26, 26, 0.8);
+            margin-top: 80px;
+        }
+        
+        .upper__div .container .row .col p {
+            font-family: 'Airbnb Cereal App Book';
+            font-style: normal;
+            src: local('Airbnb Cereal App Book'), url('AirbnbCerealBook.woff') format('woff');
+            font-size: 12px;
+            line-height: 21px;
+            /* identical to box height */
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+            padding: 20px 0px 0px 20px
+        }
+        
+        .social {
+            padding: 20px 0px 0px 20px;
+            height: 4vh;
+        }
         /* media Query */
         
         @media screen and (max-width: 576px) {
