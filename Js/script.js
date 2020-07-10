@@ -6,8 +6,8 @@ $(document).ready(function() {
         speed: 1000,
         autoplay: true,
         autoplaySpeed: 2000,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         responsive: [{
                 breakpoint: 1024,
                 settings: {

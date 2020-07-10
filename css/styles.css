@@ -197,6 +197,29 @@
         .slick-slide {
             margin: 10px
         }
+        
+        .avatar {
+            height: 10vh;
+            position: relative;
+            bottom: 20px;
+        }
+        
+        .avatar__div {
+            position: relative;
+            bottom: 5px;
+        }
+        
+        .slider__name {
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 21px;
+            position: relative;
+            bottom: 17px;
+            letter-spacing: 0.1em;
+            color: #4D4D4D;
+        }
         /* media Query */
         
         @media screen and (max-width: 576px) {
