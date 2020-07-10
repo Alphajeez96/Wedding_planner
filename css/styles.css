@@ -66,6 +66,7 @@ html {
     font-style: normal;
     src: local('Airbnb Cereal App Book'), url('AirbnbCerealBook.woff') format('woff');
     color: #FECC99;
+    letter-spacing: 0.2em;
 }
 
 .section__caption h2 {
@@ -75,6 +76,10 @@ html {
     font-size: 35px;
     line-height: 53px;
     letter-spacing: 0.05em;
-    padding-top: 50px;
+    padding-top: 40px;
     color: #FFFFFF;
+}
+
+.section__explain p {
+    padding-top: 10px;
 }
