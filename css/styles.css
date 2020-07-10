@@ -131,9 +131,21 @@
             /* content: "-" */
         }
         
-        div .recent {
-            display: flex;
-            flex-direction: row;
+        .recent {
+            font-family: 'Airbnb Cereal App Book';
+            font-style: normal;
+            src: local('Airbnb Cereal App Book'), url('AirbnbCerealBook.woff') format('woff');
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 23px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #4D4D4D;
+        }
+        
+        .portfolio {
+            padding-top: 120px;
         }
         /* media Query */
         
@@ -168,6 +180,9 @@
             .services .row {
                 flex-direction: column-reverse;
             }
+            /* .img-fluid {
+                width: 100%;
+            } */
             /* .tt {
                 flex-direction: column-reverse;
                 display: flex;
