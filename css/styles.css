@@ -220,6 +220,24 @@
             letter-spacing: 0.1em;
             color: #4D4D4D;
         }
+        
+        .slider__testimonial p {
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            color: #333333;
+        }
+        
+        .contact {
+            background: linear-gradient(180deg, rgba(26, 26, 26, 0.9) 0%, rgba(77, 77, 77, 0.95) 48.44%, rgba(23, 23, 23, 0.87) 100%), url('../assets/General/Rectangle 4 (5).png');
+        }
+        
+        .contact .container .row {
+            padding-top: 120px;
+        }
         /* media Query */
         
         @media screen and (max-width: 576px) {
