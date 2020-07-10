@@ -238,6 +238,40 @@
         .contact .container .row {
             padding-top: 120px;
         }
+        
+        .contact__sequel {
+            margin: 30px 10px 60px 10px
+        }
+        
+        .contact__sequel h4 {
+            line-height: 40px;
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 0.1em;
+            color: #FECC99;
+        }
+        
+        .contact__sequel p {
+            font-family: 'Airbnb Cereal App Book';
+            font-style: normal;
+            src: local('Airbnb Cereal App Book'), url('AirbnbCerealBook.woff') format('woff');
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 31px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+        }
+        
+        label {
+            font-family: 'Airbnb Cereal App Book';
+            font-style: normal;
+            src: local('Airbnb Cereal App Book'), url('AirbnbCerealBook.woff') format('woff');
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 21px;
+            /* identical to box height */
+            letter-spacing: 0.2em;
+            color: #FFFFFF;
+        }
         /* media Query */
         
         @media screen and (max-width: 576px) {
