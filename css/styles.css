@@ -127,10 +127,6 @@
             color: white;
         }
         
-        li:before {
-            /* content: "-" */
-        }
-        
         .recent {
             font-family: 'Airbnb Cereal App Book';
             font-style: normal;
@@ -146,6 +142,60 @@
         
         .portfolio {
             padding-top: 120px;
+        }
+        /* slick slide here */
+        
+        .slick-slide {
+            display: none;
+            float: left;
+            height: inherit !important;
+            min-height: 1px;
+        }
+        
+        p .card-text {
+            font-style: normal;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        @media (max-width:991.98px) {
+            .padding {
+                padding: 1.5rem
+            }
+        }
+        
+        @media (max-width:767.98px) {
+            .padding {
+                padding: 1rem
+            }
+        }
+        
+        .padding {
+            padding: 5rem
+        }
+        
+        .card {
+            position: relative;
+            display: flex;
+            width: 600px;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-clip: border-box;
+            background: #FFFFFF;
+            box-shadow: -3px 4px 12px rgba(229, 229, 229, 0.6);
+        }
+        
+        .card .card-body {
+            padding: 1rem 1rem
+        }
+        
+        .card-body {
+            flex: 1 1 auto;
+            padding: 1.25rem
+        }
+        
+        .slick-slide {
+            margin: 10px
         }
         /* media Query */
         
