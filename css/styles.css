@@ -169,6 +169,18 @@
             }
         }
         
+        @media screen and (max-width: 441px) {
+            .recent {
+                font-size: 8px
+            }
+            html {
+                overflow-x: hidden;
+            }
+            .about__img img {
+                height: auto;
+            }
+        }
+        
         .padding {
             padding: 5rem
         }
